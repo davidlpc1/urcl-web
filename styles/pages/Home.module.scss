@@ -1,0 +1,17 @@
+.homeContainer{
+    background:rgba(79, 164, 209, 0.4);
+    height:100vh;
+
+    h1, p, h3 {
+        color: rgb(61, 180, 45);
+    }
+
+    header{
+        padding:0.8rem;
+        border-bottom:0.1px dashed rgba(107, 208, 94,0.4);
+
+        display:flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+}

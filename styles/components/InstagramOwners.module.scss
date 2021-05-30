@@ -1,0 +1,34 @@
+.listContainer {
+    h3{
+        margin: 0.5rem;
+    }
+    
+    ul{ 
+        display:flex;
+        flex:1;
+        flex-wrap: wrap;
+        gap: 4rem;
+        
+        padding:1rem;
+    
+        list-style: none;
+    
+    
+        li {
+            padding: 1rem;
+            background:rgba(107, 208, 94,0.6);
+    
+            text-align: center;
+    
+            img{
+                width: 10rem;
+                height:10rem;
+            }
+
+            p{
+                color:rgb(31, 29, 29);
+            }
+        }
+    }
+   
+}
