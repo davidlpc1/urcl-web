@@ -2,6 +2,7 @@ import Head from 'next/head';
 import styles from '../styles/pages/Home.module.scss';
 import { useState,useEffect } from 'react';
 import InstagramOwners from '../src/components/InstagramOwners';
+import Manifest from '../src/components/Manifest';
 
 export default function Home() {
   const completeTitle = "Homem Patriota,Capitalismo a vontade";
@@ -36,8 +37,13 @@ export default function Home() {
     </header>
 
     <main>
+      <Manifest />
       <InstagramOwners />
     </main>
+
+    <footer>
+      ISSO TUDO È UMA BRINCADEIRA ,POR FAVOR,NÂO SOMOS UM PARTIDO OU MOVIMENTO.
+    </footer>
 
    </div>
   )

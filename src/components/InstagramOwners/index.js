@@ -28,8 +28,10 @@ export default function InstagramOwners() {
             {
                 owners.map(owner => (
                     <li key={owner.name}>
-                        <Image src={`${owner.image}`} width={100} height={100} />
-                        <p>{owner.name}</p>
+                        <a href={`https://instagram.com/${owner.name}`}>
+                          <Image src={`${owner.image}`} width={100} height={100} />
+                          <p>{owner.name}</p>
+                        </a>
                     </li>
                 ))
             }
