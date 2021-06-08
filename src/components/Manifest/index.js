@@ -5,7 +5,8 @@ export default function InstagramOwners() {
   return (
     <div className={styles.container}>
       <h3>Capitalist Manifest</h3>
-      <p>
+      <p>EM CONSTRUÇÃO</p>
+      {/* <p>
         O capitalismo,um sistema econômico baseado na legitimidade dos bens
         privados e na irrestrita liberdade de comércio e indústria, com o
         principal objetivo de adquirir lucro onde o capital está em mãos de
@@ -22,7 +23,7 @@ export default function InstagramOwners() {
         Resumindo,capitalismo é o melhor e nós vamos implantar isso no Brasil,"vamos metralhar a petralhada",vamos acabar com a corrupção e logo,com o petismo e esquerdismo. A solução é o diálogo com os vagabundos,esse é o único jeito de libertar o Brasil democraticamente.
         <span>#</span>BolsonaroParaSempre <span>#</span>
         LulaLadrão <span>#</span>ForaTite <span>#</span>PátriaVacinada
-      </p>
+      </p> */}
     </div>
   );
 }
