@@ -16,7 +16,6 @@ export default function Home() {
         if(index == 0) setTitle("")
         if(!completeTitle[index]) continue;
         setTitle(old => old + completeTitle[index])
-        console.log(title)
         await awaitSeconds(600);
       }
     }
@@ -39,7 +38,9 @@ export default function Home() {
     <main>
       <Manifest />
       <InstagramOwners />
+      <iframe src="https://ourworldindata.org/grapher/total-cases-covid-19?tab=map" width="100%" height="600px"></iframe>
     </main>
+
 
     <footer>
       ISSO TUDO È UMA BRINCADEIRA ,POR FAVOR,NÂO SOMOS UM PARTIDO OU MOVIMENTO.
